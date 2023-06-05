@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "web-hw-6"
+version = "0.1.0"
+description = ""
+authors = ["rattlingmars8 <rattlingmars8@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_hw_6"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faker = "^18.10.1"
+black = {extras = ["d"], version = "^23.3.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
